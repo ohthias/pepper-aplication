@@ -1,0 +1,325 @@
+{
+  "ensinoFundamentalI": {
+    "quadrado": {
+      "explicacao": {
+        "texto": "O quadrado possui 4 lados iguais. A área representa o espaço interno e é calculada multiplicando o lado por ele mesmo."
+      },
+      "formula": "A = l × l",
+      "perguntas": {
+        "01": {
+          "texto": "Um tapete quadrado tem lado de 4 m. Quantos metros quadrados ele ocupa?",
+          "correta": "b",
+          "respostas": {
+            "a": "8 m²",
+            "b": "16 m²",
+            "c": "12 m²",
+            "d": "4 m²"
+          },
+          "dicas": {
+            "1": "Área mede o espaço interno.",
+            "2": "Multiplique lado × lado.",
+            "3": "4 × 4 = ?",
+            "gabarito": "16 m²"
+          }
+        },
+        "02": {
+          "texto": "Um quadrado tem área de 9 cm². Qual o tamanho do lado?",
+          "correta": "a",
+          "respostas": {
+            "a": "3 cm",
+            "b": "4 cm",
+            "c": "2 cm",
+            "d": "6 cm"
+          },
+          "dicas": {
+            "1": "Procure um número que multiplicado por ele mesmo dá 9.",
+            "2": "Teste valores pequenos.",
+            "gabarito": "3 cm"
+          }
+        },
+        "03": {
+          "texto": "Dois quadrados de lado 2 cm são unidos. Qual a área total?",
+          "correta": "c",
+          "respostas": {
+            "a": "2 cm²",
+            "b": "4 cm²",
+            "c": "8 cm²",
+            "d": "6 cm²"
+          },
+          "dicas": {
+            "1": "Área de um quadrado: 2×2.",
+            "2": "Depois multiplique por 2.",
+            "gabarito": "4 + 4 = 8 cm²"
+          }
+        }
+      }
+    },
+
+    "triangulo": {
+      "explicacao": {
+        "texto": "O triângulo tem 3 lados. Sua área é metade da área de um retângulo com mesma base e altura."
+      },
+      "formula": "A = (b × h) / 2",
+      "perguntas": {
+        "01": {
+          "texto": "Base 6 cm e altura 2 cm. Qual a área?",
+          "correta": "d",
+          "respostas": {
+            "a": "6 cm²",
+            "b": "3 cm²",
+            "c": "8 cm²",
+            "d": "6 cm²"
+          },
+          "dicas": {
+            "1": "Multiplique base × altura.",
+            "2": "Divida por 2.",
+            "gabarito": "(6×2)/2 = 6 cm²"
+          }
+        },
+        "02": {
+          "texto": "Um triângulo tem área 12 cm² e base 4 cm. Qual a altura?",
+          "correta": "b",
+          "respostas": {
+            "a": "3 cm",
+            "b": "6 cm",
+            "c": "4 cm",
+            "d": "8 cm"
+          },
+          "dicas": {
+            "1": "Multiplique área por 2.",
+            "2": "Depois divida pela base.",
+            "gabarito": "12×2 = 24 → 24÷4 = 6 cm"
+          }
+        },
+        "03": {
+          "texto": "Se a base de um triângulo dobra, a área:",
+          "correta": "c",
+          "respostas": {
+            "a": "permanece",
+            "b": "diminui",
+            "c": "dobra",
+            "d": "triplica"
+          },
+          "dicas": {
+            "1": "Veja a fórmula.",
+            "2": "Base está multiplicando.",
+            "gabarito": "Dobra"
+          }
+        }
+      }
+    },
+
+    "circulo": {
+      "explicacao": {
+        "texto": "O círculo é uma figura redonda. Sua área depende do raio."
+      },
+      "formula": "A = π × r²",
+      "perguntas": {
+        "01": {
+          "texto": "Raio 2 cm. Área (π≈3)?",
+          "correta": "a",
+          "respostas": {
+            "a": "12",
+            "b": "6",
+            "c": "4",
+            "d": "8"
+          },
+          "dicas": {
+            "1": "2²=4",
+            "2": "4×3=12",
+            "gabarito": "12"
+          }
+        },
+        "02": {
+          "texto": "Área 27 cm² (π≈3). Qual o raio?",
+          "correta": "b",
+          "respostas": {
+            "a": "2",
+            "b": "3",
+            "c": "4",
+            "d": "6"
+          },
+          "dicas": {
+            "1": "Divida por 3.",
+            "2": "Depois raiz quadrada.",
+            "gabarito": "r=3"
+          }
+        },
+        "03": {
+          "texto": "Se o raio dobra, a área:",
+          "correta": "d",
+          "respostas": {
+            "a": "dobra",
+            "b": "triplica",
+            "c": "permanece",
+            "d": "quadruplica"
+          },
+          "dicas": {
+            "1": "O raio está ao quadrado.",
+            "2": "(2r)² = 4r²",
+            "gabarito": "Quadruplica"
+          }
+        }
+      }
+    }
+  },
+
+  "ensinoFundamentalII": {
+    "quadrado": {
+      "explicacao": {
+        "texto": "Além da área, o quadrado possui perímetro e diagonal. Sua diagonal é dada por l√2. A área pode ser expressa usando a diagonal também."
+      },
+      "formula": "A = l²",
+      "perguntas": {
+        "01": {
+          "texto": "Um quadrado com lado 6 cm. Área?",
+          "correta": "a",
+          "respostas": {
+            "a": "36",
+            "b": "12",
+            "c": "18",
+            "d": "24"
+          },
+          "dicas": {
+            "1": "Use l²",
+            "2": "6×6",
+            "gabarito": "36"
+          }
+        },
+        "02": {
+          "texto": "Perímetro com lado 5?",
+          "correta": "c",
+          "respostas": {
+            "a": "10",
+            "b": "15",
+            "c": "20",
+            "d": "25"
+          },
+          "dicas": {
+            "1": "4×lado",
+            "gabarito": "20"
+          }
+        },
+        "03": {
+          "texto": "Área 49. Lado?",
+          "correta": "d",
+          "respostas": {
+            "a": "6",
+            "b": "5",
+            "c": "8",
+            "d": "7"
+          },
+          "dicas": {
+            "1": "Raiz quadrada",
+            "gabarito": "7"
+          }
+        }
+      }
+    },
+
+    "triangulo": {
+      "explicacao": {
+        "texto": "O triângulo envolve relações de área e propriedades angulares."
+      },
+      "formula": "A = (b × h) / 2",
+      "perguntas": {
+        "01": {
+          "texto": "Base 10, altura 8. Área?",
+          "correta": "b",
+          "respostas": {
+            "a": "80",
+            "b": "40",
+            "c": "20",
+            "d": "60"
+          },
+          "dicas": {
+            "1": "(10×8)/2",
+            "gabarito": "40"
+          }
+        },
+        "02": {
+          "texto": "Ângulos internos de triângulo somam:",
+          "correta": "a",
+          "respostas": {
+            "a": "180°",
+            "b": "360°",
+            "c": "90°",
+            "d": "270°"
+          },
+          "dicas": {
+            "1": "Valor fixo",
+            "gabarito": "180°"
+          }
+        },
+        "03": {
+          "texto": "Base dobra → área:",
+          "correta": "c",
+          "respostas": {
+            "a": "igual",
+            "b": "metade",
+            "c": "dobra",
+            "d": "triplica"
+          },
+          "dicas": {
+            "1": "Proporcional",
+            "gabarito": "dobra"
+          }
+        }
+      }
+    },
+
+    "ensinoMedio": {
+      "quadrado": {
+        "explicacao": {
+          "texto": "No ensino médio, analisamos o quadrado com relações algébricas e geométricas mais profundas."
+        },
+        "formula": "A = d²/2",
+        "perguntas": {
+          "01": {
+            "texto": "Diagonal 10√2. Área?",
+            "correta": "b",
+            "respostas": {
+              "a": "50",
+              "b": "100",
+              "c": "200",
+              "d": "25"
+            },
+            "dicas": {
+              "1": "Eleve ao quadrado",
+              "2": "Divida por 2",
+              "gabarito": "100"
+            }
+          },
+          "02": {
+            "texto": "Lado x. Área?",
+            "correta": "a",
+            "respostas": {
+              "a": "x²",
+              "b": "2x",
+              "c": "x/2",
+              "d": "√x"
+            },
+            "dicas": {
+              "1": "Definição direta",
+              "gabarito": "x²"
+            }
+          },
+          "03": {
+            "texto": "Área 121. Lado?",
+            "correta": "d",
+            "respostas": {
+              "a": "10",
+              "b": "12",
+              "c": "9",
+              "d": "11"
+            },
+            "dicas": {
+              "1": "Raiz quadrada",
+              "gabarito": "11"
+            }
+          }
+        }
+      }
+    }
+  }
+}
