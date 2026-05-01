@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package installOnlyAtStartup="false" version="0.0.0" uuid="leiametria-b22f0b">
+<package uuid="leiametria-b22f0b" version="0.0.0" installOnlyAtStartup="false">
  <names>
   <name lang="en_US">Leiametria</name>
  </names>
